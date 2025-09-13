@@ -1,0 +1,44 @@
+body {
+    background-image: url(./images/pexels-fotios-photos-3100310.jpg);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;            
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+    /* border: solid black 2px; */
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
