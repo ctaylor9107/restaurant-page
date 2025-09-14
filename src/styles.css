@@ -20,8 +20,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30%;
-    /* border: solid black 2px; */
+    gap: 40%;
 }
 
 button {
@@ -29,7 +28,7 @@ button {
     height: 50px;
     background-color: black;
     color: white;
-    border: red solid 5px;
+    border-radius: 15px;
 }
 
 main {
