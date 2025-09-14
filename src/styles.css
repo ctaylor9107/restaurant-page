@@ -1,11 +1,11 @@
-body {
+body, html {
     background-image: url(./images/pexels-fotios-photos-3100310.jpg);
     background-size: cover;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;            
+    margin: 0;        
 }
 
 header {
@@ -49,6 +49,38 @@ main {
  margin-top: 115px;
  margin-bottom: 300px;
  border-radius: 15px;
+}
+
+#menu {
+    border: solid black 1px;
+    min-width: 900px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu-item-header {
+    margin-top: 90px;
+}
+
+.menu-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu-item {
+    border: solid black 2px;
+    border-radius: 15px;
+    min-width: 500px;
+    background-color: black;
+    color: white;
+    max-width: 500px;
 }
 
 
